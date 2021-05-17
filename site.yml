@@ -1,0 +1,5 @@
+---
+- hosts: EC2_Instances_AWS
+  become: yes
+  roles:
+   - Docker
