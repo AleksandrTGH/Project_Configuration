@@ -1,0 +1,6 @@
+docker_packages: ['apt-transport-https','ca-certificates','curl','gnupg-agent','lsb-release']
+docker_gpg_key_url: https://download.docker.com/linux/ubuntu/gpg
+architecture: amd64
+docker_engine: ['docker-ce', 'docker-ce-cli', 'containerd.io']
+container_name: Java-app
+docker_image: aleksandrtdh/artifacts:latest
